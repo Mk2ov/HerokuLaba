@@ -1,88 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Моя Автобіографія</title>
-     <style>
-          body {
-               font-family: Arial, sans-serif;
-               margin: 0;
-               padding: 0;
-               box-sizing: border-box;
-               background-color: #f4f4f4;
-               color: #333;
-          }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oleg Makarikhin - Car Enthusiast Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-          .container {
-               max-width: 800px;
-               margin: 20px auto;
-               padding: 20px;
-               background-color: #fff;
-               border-radius: 8px;
-               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    <style>
+        body {
+            background: #111;
+            color: #e4e4e4;
+            font-family: 'Segoe UI', sans-serif;
+        }
 
-          }
+        .resume-wrapper {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.15);
+        }
 
-          h1,
-          h2,
-          h3 {
-               color: #555;
-          }
+        h1, h2 {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
 
-          p {
-               line-height: 1.6;
-          }
+        h1 {
+            color: #ff2e2e;
+            letter-spacing: 2px;
+        }
 
-          img {
-               width: 150px;
-               height: auto;
-               border-radius: 50%;
-               margin-bottom: 20px;
-          }
-     </style>
+        h3 {
+            color: #c5c5c5;
+            font-weight: 400;
+        }
+
+        h2 {
+            color: #ff2e2e;
+            font-size: 1.3rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #ff2e2e;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .separator {
+            border-left: 2px solid #333;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        .profile-text {
+            text-align: justify;
+        }
+    </style>
 </head>
 
 <body>
-     <div class="container">
-          <header>
-               <img src="1.jpg" alt="Ваше фото">
-               <h1>Моя Автобіографія</h1>
-          </header>
-          <section>
-               <h2>Особисті дані</h2>
-               <ul>
-                    <li><strong>Ім'я:</strong> Олег</li>
-                    <li><strong>Дата народження:</strong> 09.11.2004</li>
-                    <li><strong>Місце проживання:</strong> м.Черкаси</li>
-                    <li><strong>Електронна пошта:</strong><a href="mailto:o.o.makarikhin.fitis22@chdtu.edu.ua">o.o.makarikhin.fitis22@chdtu.edu.ua</a></li>
-                    <li><strong>Телеграм:</strong><a href="http://t.me/smotthm">@smotthm</a></li>
-               </ul>
-          </section>
-          <section>
-               <h2>Освіта</h2>
-               <p>Студент Черкаського Державного Технологічного Університета</p>
-               <p>Факультет ФІТІС</p>
-               <p>Спеціальність 121 Інженерія Програмногр Забезпечення</p>
-          </section>
-          <section>
-               <h2>Досвід роботи</h2>
-               <p>Досвід роботи в сфері IT відсутній. Маю не малий досвід роботи на меблевому виробництві</p>
-          </section>
-          <section>
-               <h2>Навички</h2>
-               <p>Взаємодія з людьми, критичне мислення</p>
-          </section>
-          <section>
-               <h2>Хобі та інтереси</h2>
-               <p>Люблю автомобілі та все , що з ними пов`язане. Часто відвідую заходи пов`язані з автомобільною
-                    тематикою. </p>
-          </section>
-          <footer>
-               <p>© 2024 Моя Автобіографія</p>
-          </footer>
-     </div>
-</body>
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10 resume-wrapper">
 
+                <!-- Header -->
+                <div class="text-center mb-4">
+                    <h1>Makarikhin Oleg</h1>
+                    <h3>Car Enthusiast • Tuning Fan • Software Engineer</h3>
+                    <hr class="mt-3 mb-3" style="border-color:#333;">
+                </div>
+
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-md-4 pe-4">
+
+                        <div class="text-center">
+                            <img src="18.jpg" alt="profile photo" class="profile-img">
+                        </div>
+
+                        <!-- Contact -->
+                        <h2>Contact</h2>
+                        <ul class="list-unstyled">
+                            <li>📞 +380685380014</li>
+                            <li>📧 bigbossmr4@gmail.com</li>
+                            <li>📍 Cherkassy, Ukraine</li>
+                        </ul>
+
+                        <!-- Education -->
+                        <h2>Education</h2>
+                        <p><strong>2022 – 2026</strong></p>
+                        <p><strong>ChSTU University</strong></p>
+                        <p>Software Engineering</p>
+
+                        <!-- Skills -->
+                        <h2>Soft Skills</h2>
+                        <ul class="list-unstyled">
+                            <li>Teamwork</li>
+                            <li>Fast Learning</li>
+                            <li>Critical Thinking</li>
+                            <li>Attention to Detail</li>
+                        </ul>
+
+                        <h2>Hard Skills</h2>
+                        <ul class="list-unstyled">
+                            <h5 class="mt-3 text-light">FrontEnd:</h5>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+
+                            <h5 class="mt-3 text-light">BackEnd:</h5>
+                            <li>NestJS</li>
+                            <li>TypeORM</li>
+                            <li>GraphQL</li>
+                            <li>Swagger</li>
+                        </ul>
+
+                        <!-- Languages -->
+                        <h2>Languages</h2>
+                        <ul class="list-unstyled">
+                            <li>English — Fluent</li>
+                            <li>Ukrainian — Native</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vertical Separator -->
+                    <div class="col-md-1 separator"></div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-7">
+                        <!-- Profile -->
+                        <h2>Profile</h2>
+                        <p class="profile-text">
+                            I am a passionate automotive enthusiast with a deep interest in tuning, 
+                            engine dynamics, detailing, and modern car technologies.  
+                            Besides cars, I specialize in software engineering and API development.  
+                            I enjoy combining tech and automotive hobbies: analyzing ECU logic, exploring 
+                            diagnostics, and improving car performance through modern tools and engineering thinking.
+                        </p>
+
+                        <p class="profile-text">
+                            I study Software Engineering at ChSTU and completed practical experience in backend 
+                            development using NestJS, GraphQL, TypeORM and Swagger while building an API 
+                            for a digital book catalog system.
+                        </p>
+
+                        <!-- Work Experience -->
+                        <h2 class="mt-4">Work Experience</h2>
+
+                        <div class="mb-4">
+                            <h5 class="mb-1">Borcelle Studio</h5>
+                            <p class="text-secondary">Marketing Manager & Specialist</p>
+                            <ul>
+                                <li>Developed and executed marketing strategies</li>
+                                <li>Managed a team of creatives</li>
+                                <li>Maintained brand quality across all channels</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="mb-1">Fauget Studio</h5>
+                            <p class="text-secondary">Marketing Manager</p>
+                            <ul>
+                                <li>Analyzed markets and trends</li>
+                                <li>Created and optimized marketing budget</li>
+                                <li>Ensured consistent visual branding</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="mb-1">Studio Shodwe</h5>
+                            <p class="text-secondary">Marketing Specialist</p>
+                            <ul>
+                                <li>Developed partner relationships</li>
+                                <li>Maintained strong brand identity</li>
+                            </ul>
+                        </div>
+
+                        <!-- References -->
+                        <h2>References</h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <p><strong>Estelle Darcy</strong></p>
+                                <p>Wardiere Inc. — CTO</p>
+                                <p>123-456-7890</p>
+                                <p>hello@reallygreatsite.com</p>
+                            </div>
+
+                            <div class="col-6">
+                                <p><strong>Harper Richard</strong></p>
+                                <p>Wardiere Inc. — CEO</p>
+                                <p>123-456-7890</p>
+                                <p>hello@reallygreatsite.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
